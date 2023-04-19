@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+    
+    .image-container {   
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/profile2.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;  
+    
+    }
+    
+
+    .container {
+        background-color: rgb(181, 200, 236);
+        color: rgb(35, 40, 48);
+        border-color: rgb(35, 40, 48);
+        width: 100%;
+    }
+    
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        border-color: rgb(35, 40, 48);
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+        border-color: rgb(35, 40, 48);
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .footer ul a {
+        color: rgb(35, 40, 48);
+        text-decoration: none;
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+
+
+    .image-container {   
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/profile3.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;  
+    
+    }
+
+    .container {
+        background-color: rgb(235, 243, 209);
+        color: rgb(36, 41, 18);
+        width: 100%;
+    }
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        border-color: rgb(36, 41, 18);
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+        border-color: rgb(36, 41, 18);
+    }
+
+    .footer ul a {
+        color: rgb(36, 41, 18);
+        text-decoration: none;
+    }
+
+}
+
+
+@media (min-width: 1024px){
+        
+
+    .image-container {   
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/profile4.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;  
+    
+    }
+
+    .container {
+        background-color: rgb(243, 209, 238);
+        color: rgb(43, 2, 63);
+        width: 100%;
+    }
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        border-color: rgb(43, 2, 63);
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+        border-color: rgb(43, 2, 63);
+    }
+
+    .footer ul a {
+        color: rgb(43, 2, 63);
+        text-decoration: none;
+    }
+
+}
+
+
+@media (min-width: 1200px){
+
+
+
+    .image-container {   
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/profile1.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;  
+    
+    }
+
+    .container {
+        background-color: rgb(38, 54, 40);
+        color: cornsilk;
+        width: 100%;
+    }
+
+    .header h1 {
+        margin: 3rem auto;
+    }
+    .navigation ul li {
+        display: inline-block;
+        width: 16rem;
+        border-color: cornsilk;
+    }
+
+
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid black;
+        border-color: cornsilk;
+        margin-right: 4rem;
+    }
+
+    .main-container {
+        width: 75%;
+    }
+
+    .footer ul a {
+        color: cornsilk;
+        text-decoration: none;
+    }
+}
+
+
